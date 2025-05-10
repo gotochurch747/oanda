@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Water Bill</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f2f6fa;
+      padding: 30px;
+    }
+
+    .bill-container {
+      max-width: 700px;
+      margin: auto;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .logo {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .logo img {
+      max-width: 120px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #0077cc;
+    }
+
+    .section {
+      margin-bottom: 25px;
+    }
+
+    .section-title {
+      font-weight: bold;
+      border-bottom: 1px solid #ccc;
+      margin-bottom: 10px;
+      padding-bottom: 5px;
+      color: #444;
+    }
+
+    .info-row {
+      display: flex;
+      justify-content: space-between;
+      margin: 5px 0;
+    }
+
+    .total {
+      font-size: 20px;
+      font-weight: bold;
+      color: #0077cc;
+      text-align: right;
+      margin-top: 20px;
+    }
+
+    .note {
+      text-align: center;
+      font-size: 14px;
+      color: #666;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="bill-container">
+
+    <div class="logo">
+      <img src="water logo.jpg" alt="Water Utility Logo">
+    </div>
+
+    <h2>Water Utility Bill</h2>
+
+    <div class="section">
+      <div class="section-title">Customer Information</div>
+      <div class="info-row"><strong>Name:</strong> TESLA WILLIAM</div>
+      <div class="info-row"><strong>Address:</strong> 102 Parker st,irwinton<br> 31042 GA</div>
+      <div class="info-row"><strong>Account Number:</strong> ......9876</div>
+      <div class="info-row"><strong>Billing Date:</strong> APRIL 06, 2025</div>
+      <div class="info-row"><strong>Due Date:</strong> May 07, 2025</div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Meter Details</div>
+      <div class="info-row"><strong>Previous Reading:</strong> 12450</div>
+      <div class="info-row"><strong>Current Reading:</strong> 12570</div>
+      <div class="info-row"><strong>Units Used:</strong> 120</div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Charges</div>
+      <div class="info-row"><strong>Water Usage (120 units @ $0.50/unit):</strong> $80.00</div>
+      <div class="info-row"><strong>Sewer Fee:</strong> $15.00</div>
+      <div class="info-row"><strong>Service Fee:</strong> $10.00</div>
+    </div>
+
+    <div class="total">Total Amount Due: $115.00</div>
+
+    <div class="note">Please make payment by the due date to avoid late fees.</div>
+  </div>
+
+</body>
+</html>

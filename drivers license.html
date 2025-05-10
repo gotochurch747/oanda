@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Arizona Driver License</title>
+  <style>
+    body {
+      background: #e8edf3;
+      display: flex;
+      justify-content: center;
+      padding: 40px;
+      font-family: 'Arial', sans-serif;
+    }
+
+    .license {
+      width: 600px;
+      height: 300px;
+      background: url('background.png')
+      border: 2px solid #ccc;
+      border-radius: 10px;
+      padding: 20px;
+      position: relative;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      color: #000;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 5px;
+    }
+
+    .header h1 {
+      font-family: 'Georgia', serif;
+      font-size: 28px;
+      color: #b04929;
+      margin: 0;
+    }
+
+    .header .usa {
+      color: #a40000;
+      font-size: 14px;
+    }
+
+    .section {
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    .photo {
+      position: absolute;
+      left: 20px;
+      top: 80px;
+      width: 100px;
+      height: 130px;
+      background-color: #ccc;
+      background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Sample_User_Icon.png/120px-Sample_User_Icon.png');
+      background-size: cover;
+      border: 2px solid #999;
+    }
+
+    .info {
+      margin-left: 130px;
+    }
+
+    .bold-label {
+      font-weight: bold;
+      color: #000080;
+    }
+
+    .row {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .signature {
+      position: absolute;
+      bottom: 40px;
+      left: 20px;
+      font-family: 'Brush Script MT', cursive;
+      font-size: 18px;
+      color: #d12c2c;
+    }
+
+    .bottom {
+      position: absolute;
+      bottom: 10px;
+      font-size: 12px;
+      width: 100%;
+      text-align: center;
+      color: #222;
+    }
+
+    .donor {
+      color: #d12c2c;
+      font-weight: bold;
+    }
+
+    .veteran {
+      color: #004085;
+      font-weight: bold;
+    }
+
+    .barcode {
+      position: absolute;
+      bottom: 10px;
+      right: 20px;
+      font-size: 12px;
+      color: #000;
+    }
+
+    .star {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      width: 30px;
+      height: 30px;
+      background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Real_ID_star.svg/50px-Real_ID_star.svg.png') no-repeat center;
+      background-size: contain;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="license">
+    <div class="header">
+      <h1>Arizona</h1>
+      <div>
+        <div><strong>DRIVER LICENSE</strong></div>
+        <div class="usa">USA</div>
+      </div>
+    </div>
+
+    <div class="star"></div>
+
+    <div class="photo"></div>
+
+    <div class="info section">
+      <div><span class="bold-label">DLN:</span> D08954796</div>
+      <div><span class="bold-label">DOB:</span> 01/01/1992</div>
+      <div><span class="bold-label">Name:</span>TESLA LEOLA WILLIAMS</div>
+      <div><span class="bold-label">Address:</span> 123 Main St, Phoenix,  85007</div>
+
+      <div class="row">
+        <div><span class="bold-label">EXP:</span> 03/01/2026</div>
+        <div><span class="bold-label">ISS:</span> 03/01/2022</div>
+      </div>
+
+      <div class="row">
+        <div><span class="bold-label">SEX:</span> F</div>
+        <div><span class="bold-label">EYES:</span> BRO</div>
+        <div><span class="bold-label">HAIR:</span> BRO</div>
+      </div>
+
+      <div class="row">
+        <div><span class="bold-label">HT:</span> 5'-09"</div>
+        <div><span class="bold-label">WT:</span> 185 lb</div>
+      </div>
+
+      <div class="row" style="margin-top: 5px;">
+        <div class="donor">DONOR</div>
+        <div class="veteran">VETERAN</div>
+      </div>
+    </div>
+
+    <div class="signature">tesla w.</div>
+    <div class="barcode">DD: 9001A895151421J4</div>
+    <div class="bottom">This is a demo layout and not a real license</div>
+  </div>
+
+</body>
+</html>
